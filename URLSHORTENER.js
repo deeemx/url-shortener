@@ -6,7 +6,7 @@ const validUrl = require('valid-url');
 const app = express();
 const PORT = 3000;
 
-const urlDatabase = {};
+const urlDatabase = {}; //brace broke
 
 app.use(bodyParser.json());
 
