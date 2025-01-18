@@ -64,7 +64,7 @@ app.get('/:shortId/stats', (req, res) => {
 app.get('/admin/list', (req, res) => {
     res.json(urlDatabase);
 });
-//dm .d.m.x. on dc for help whys this not working fixing rn
+//dm .d.m.x. on dc for help
 app.delete('/:shortId', (req, res) => {
     const { shortId } = req.params;
 
