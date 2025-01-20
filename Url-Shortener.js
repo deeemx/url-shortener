@@ -60,7 +60,7 @@ app.get('/:shortId/stats', (req, res) => {
         createdAt: entry.createdAt,
     });
 });
-
+//mutex
 app.get('/admin/list', (req, res) => {
     res.json(urlDatabase);
 });
