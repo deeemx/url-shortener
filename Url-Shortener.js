@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const shortid = require('shortid');
 const validUrl = require('valid-url');
-// paste exel working since i larnt
+// paste exel working since i learnt
 const app = express();
 const PORT = 3000;
 
