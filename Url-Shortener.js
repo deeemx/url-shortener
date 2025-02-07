@@ -30,7 +30,7 @@ app.post('/shorten', (req, res) => {
         clicks: 0,
         createdAt: new Date().toISOString(),
     };
-//add own site
+//add your own site
     res.json({ shortUrl: `http://localhost:${PORT}/${shortId}` });
 });
 
